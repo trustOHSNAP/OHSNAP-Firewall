@@ -1,0 +1,6 @@
+# MANIFEST: host/f1
+USER,GROUP,PERM,ABSPATH
+
+# Preexisting directories - not actual overrides
+
+# OVERRIDES START

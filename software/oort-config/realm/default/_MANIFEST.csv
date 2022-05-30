@@ -1,0 +1,6 @@
+# MANIFEST: realm/default
+USER,GROUP,PERM,ABSPATH
+
+# Preexisting directories - not actual overrides
+
+# OVERRIDES START

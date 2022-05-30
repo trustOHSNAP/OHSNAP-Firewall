@@ -1,0 +1,6 @@
+REALM,HOSTNAME,ROLE,OSFLAVOR,BOARD,ADMIN_IP,MAC
+
+#
+# REALM: default
+#
+default,f1,firewall,current,generic-arm64,10.0.1.2,00:00:00:00:00:00

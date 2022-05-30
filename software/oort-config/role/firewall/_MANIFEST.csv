@@ -1,0 +1,6 @@
+# MANIFEST: role/firewall
+USER,GROUP,PERM,ABSPATH
+
+# Preexisting directories - not actual overrides
+
+# OVERRIDES START

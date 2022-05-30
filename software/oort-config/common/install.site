@@ -1,0 +1,2 @@
+# improve ntpd privacy by not querying google
+sed -i 's/www\.google\.com/www.openbsd.org/' /etc/ntpd.conf

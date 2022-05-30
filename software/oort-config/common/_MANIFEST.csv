@@ -1,0 +1,20 @@
+# MANIFEST: common
+USER,GROUP,PERM,ABSPATH
+
+# Preexisting directories - not actual overrides
+root,wheel,755,/
+root,wheel,755,/etc
+root,wheel,755,/home
+ohsnap,ohsnap,750,/home/ohsnap
+root,wheel,700,/root
+
+# OVERRIDES START
+root,wheel,700,/_AUTOGEN_install.site
+root,wheel,644,/etc/doas.conf
+root,wheel,640,/etc/rc.firsttime
+ohsnap,ohsnap,600,/home/ohsnap/_DOT.zprofile
+ohsnap,ohsnap,600,/home/ohsnap/_DOT.zshrc
+root,wheel,700,/root/post_install.sh
+root,wheel,700,/root/post_install_packages.sh
+root,wheel,600,/root/_AUTOGEN_post_install_hosts_append
+root,wheel,600,/root/_AUTOGEN_post_install_package_list.txt

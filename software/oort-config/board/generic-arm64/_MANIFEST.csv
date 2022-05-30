@@ -1,0 +1,6 @@
+# MANIFEST: board/generic-arm64
+USER,GROUP,PERM,ABSPATH
+
+# Preexisting directories - not actual overrides
+
+# OVERRIDES START

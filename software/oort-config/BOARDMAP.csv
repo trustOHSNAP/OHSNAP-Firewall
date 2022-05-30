@@ -1,0 +1,7 @@
+BOARDNAME,SYSARCH,PKGARCH,BOOTLOADER_BOARD_NAME,INSTALL_BOOT_DEVICES,INSTALL_IMAGE_NAME_INFIX
+  generic-arm64, arm64, aarch64, ,                     sd,  
+        rockpi4, arm64, aarch64, rock-pi-4-rk3399,     sd,  
+      rockpro64, arm64, aarch64, rockpro64-rk3399,     sd,  
+    pinebookpro, arm64, aarch64, pinebook-pro-rk3399, usb,
+beagleboneblack, armv7, arm,     am335x_evm,           sd, -am335x-
+         vmware, amd64, amd64,   ,                    usb,

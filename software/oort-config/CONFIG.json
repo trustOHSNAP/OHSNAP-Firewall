@@ -1,0 +1,6 @@
+{
+    "__COMMENT_FILENAME__" : "CONFIG.json",
+    
+    "netboot-host-ip" :   "192.168.1.1",
+    "netboot-target-ip" : "192.168.1.2"
+}
