@@ -10,11 +10,20 @@ root,wheel,700,/root
 
 # OVERRIDES START
 root,wheel,700,/_AUTOGEN_install.site
+root,wheel,644,/etc/dhcpd.conf
 root,wheel,644,/etc/doas.conf
+root,wheel,640,/etc/hostname.re0.conf
+root,wheel,640,/etc/hostname.re1.conf
+root,wheel,640,/etc/hostname.wlan0.conf
+root,wheel,600,/etc/pf.conf
+root,wheel,640,/etc/rc.conf.local
 root,wheel,640,/etc/rc.firsttime
+root,wheel,644,/etc/resolv.conf
+root,wheel,644,/etc/sysctl.conf
 ohsnap,ohsnap,600,/home/ohsnap/_DOT.zprofile
 ohsnap,ohsnap,600,/home/ohsnap/_DOT.zshrc
 root,wheel,700,/root/post_install.sh
 root,wheel,700,/root/post_install_packages.sh
 root,wheel,600,/root/_AUTOGEN_post_install_hosts_append
 root,wheel,600,/root/_AUTOGEN_post_install_package_list.txt
+root,wheel,644,/var/unbound/etc/unbound.conf

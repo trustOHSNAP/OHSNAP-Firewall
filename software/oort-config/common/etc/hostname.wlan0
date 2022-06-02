@@ -1,0 +1,4 @@
+# Wi-Fi adapter example
+#autoselect mode 11n mediaopt hostap chan 1
+#nwid AccessPointName wpakey VeryLongPassword
+#inet 192.168.4.1 255.255.255.0
