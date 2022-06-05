@@ -2,5 +2,18 @@
 USER,GROUP,PERM,ABSPATH
 
 # Preexisting directories - not actual overrides
+root,wheel,755,/etc
+root,wheel,755,/var
+root,wheel,755,/var/unbound
+root,wheel,755,/var/unbound/etc
 
 # OVERRIDES START
+root,wheel,644,/etc/dhcpd.conf
+root,wheel,640,/etc/hostname.re0
+root,wheel,640,/etc/hostname.re1
+root,wheel,640,/etc/hostname.wlan0
+root,wheel,600,/etc/pf.conf
+root,wheel,640,/etc/rc.conf.local
+root,wheel,644,/etc/resolv.conf
+root,wheel,644,/etc/sysctl.conf
+root,wheel,644,/var/unbound/etc/unbound.conf
