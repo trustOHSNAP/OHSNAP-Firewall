@@ -9,9 +9,9 @@ root,wheel,755,/var/unbound/etc
 
 # OVERRIDES START
 root,wheel,644,/etc/dhcpd.conf
-root,wheel,640,/etc/hostname.re0.conf
-root,wheel,640,/etc/hostname.re1.conf
-root,wheel,640,/etc/hostname.wlan0.conf
+root,wheel,640,/etc/hostname.re0
+root,wheel,640,/etc/hostname.re1
+root,wheel,640,/etc/hostname.wlan0
 root,wheel,600,/etc/pf.conf
 root,wheel,640,/etc/rc.conf.local
 root,wheel,644,/etc/resolv.conf
